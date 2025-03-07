@@ -9,7 +9,7 @@ export default function Home() {
           What&apos;s Your Type in SIGN?
         </h1>
         <p className="text-center text-gray-700 mb-8">
-          Take this quick quiz to discover if you're a Serious Builder, Visionary Observer, Bullish Tycoon, or
+          Take this quick quiz to discover if you&apos;re a Serious Builder, Visionary Observer, Bullish Tycoon, or
           Adventurous Rebel!
         </p>
         <div className="flex justify-center">
