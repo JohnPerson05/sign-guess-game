@@ -30,7 +30,7 @@ export default function ResultsPage() {
 
   if (!result) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-500 to-orange-300">
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-orange-300 to-orange-400">
         <div className="bg-white p-8 rounded-xl shadow-lg">Loading your results...</div>
       </div>
     )
@@ -39,7 +39,7 @@ export default function ResultsPage() {
   const personality = personalityTypes[result]
 
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-orange-500 to-orange-300 p-4">
+    <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-orange-300 to-orange-400 p-4">
       <div className="max-w-md w-full bg-white rounded-xl shadow-lg p-8 text-center">
         <div className="text-5xl mb-4">{personality.icon}</div>
         <h1 className="text-3xl font-bold mb-2">You are a {personality.name}!</h1>
